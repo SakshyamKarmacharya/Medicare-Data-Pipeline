@@ -2,7 +2,7 @@ import pandas as pd
 
 def extract_data():
     # Full absolute path inside the container
-    input_path = "/opt/airflow/data/Medicare_2019.csv"
+    input_path = "/opt/airflow/data/Medicare_2021.csv"
     output_path = "/opt/airflow/data/extracted.csv"
 
     df = pd.read_csv(input_path, dtype=str)

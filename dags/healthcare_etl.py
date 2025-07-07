@@ -13,7 +13,7 @@ from load import load_data
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2023, 1, 1),
+    'start_date': datetime(2024, 1, 1),
 }
 
 with DAG('healthcare_etl',
